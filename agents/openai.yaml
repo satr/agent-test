@@ -1,0 +1,5 @@
+interface:
+  display_name: Operation1 Parser
+  short_description: Adds two integers from operation1 input.
+  icon: calculator
+  color: blue
