@@ -29,7 +29,7 @@ Examples:
   Output: `sum: 3`
 - Input: `operation1 : 4,7`
   Output: `sum: 11`
-- Input: `operation2: 1, 2`
+- Input: `operation7: 1, 2`
   Output: `unknown operation`
 - Input: `hello`
   Output: `unknown operation`
