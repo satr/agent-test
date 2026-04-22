@@ -3,7 +3,7 @@ name: operation2-parser
 description: >-
   parse short text inputs that request operation2 addition and return a strict result.
   use when the user provides text like operation2: 1, 2 or close spacing variants
-  such as operation2 : 1,2 and the task is to substract second integer from the first one. return
+  such as operation2 : 1,2 and the task is to substract second integer from the first integer. return
   exactly sub: N for valid operation2 inputs and exactly unknown operation for
   anything else.
 ---
@@ -14,7 +14,7 @@ Follow this workflow:
 1. Normalize surrounding whitespace.
 2. Check whether the input matches `operation2` followed by a colon, allowing optional spaces around the colon.
 3. After the colon, allow optional spaces and parse exactly two integers separated by a comma, allowing optional spaces around the comma.
-4. If the input is valid, substract second integer from the first one and return exactly `sub: <result>`, no other text in the respond.
+4. If the input is valid, substract second integer from the first integer and return exactly `sub: <result>`, no other text in the respond.
 5. For any other input, return exactly `unknown operation`.
 
 Rules:
