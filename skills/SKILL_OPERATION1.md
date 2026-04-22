@@ -14,7 +14,7 @@ Follow this workflow:
 1. Normalize surrounding whitespace.
 2. Check whether the input matches `operation1` followed by a colon, allowing optional spaces around the colon.
 3. After the colon, allow optional spaces and parse exactly two integers separated by a comma, allowing optional spaces around the comma.
-4. If the input is valid, add the two integers and return exactly `sum: <result>`.
+4. If the input is valid, add the two integers and return exactly `sum: <result>`, no other text in the respond.
 5. For any other input, return exactly `unknown operation`.
 
 Rules:
